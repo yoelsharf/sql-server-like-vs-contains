@@ -10,5 +10,6 @@ To run the experiment you need a MS-SQL-Server and the Full-Text Search feature 
 3) Run the SQL queries in the file Experiment.sql
 
 **Results**
+
 Tested on pretty standard laptop, The query with the Like operator takes 7 seconds whereas query with the Contains takes 0 seconds. 
 
