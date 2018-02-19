@@ -1,6 +1,3 @@
-USE [PerfDemo]
-GO
-
 /****
 
  Script Created by: Yoel Sharf
@@ -10,6 +7,8 @@ GO
 
 ****/
 
+USE [PerfDemo]
+GO
 
 DECLARE @cnt INT = 0;
 DECLARE @total INT = 500000;
