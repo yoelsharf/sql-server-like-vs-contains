@@ -1,6 +1,3 @@
-USE [master]
-GO
-
 /****
 
 	Script Created by: Yoel Sharf
@@ -9,6 +6,9 @@ GO
 	Texts from http://insider.foxnews.com/2018/02/18/behar-mike-pence-comment-christianity-trump-advisor-says-abc-should-apologize 
 
 ****/
+
+USE [master]
+GO
 
 CREATE DATABASE [PerfDemo]
  CONTAINMENT = NONE
