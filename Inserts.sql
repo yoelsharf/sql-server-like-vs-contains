@@ -37,3 +37,11 @@ BEGIN
    SET @cnt = @cnt + 1;
 END;
 
+USE [PerfDemo]
+GO
+
+/****** Object:  FullTextCatalog [Perfs Catalog]   0 ******/
+CREATE FULLTEXT CATALOG [Perfs Catalog] WITH ACCENT_SENSITIVITY = ON
+GO
+
+
